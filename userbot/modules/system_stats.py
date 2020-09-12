@@ -100,7 +100,7 @@ async def psu(event):
     help_string += "🐲 **Engine Info**\n"
     help_string += f"`Python {sys.version}`\n"
     help_string += f"`Telethon {__version__}`"
-    line = "•⊰❂⊱═════ •⊰🐲⊱• ═════⊰❂⊱•\n🐲 Powered by: [₆⁶₆Ϋ̙Θ⃬UN͠GB⃭ØΫ̘₆⁶₆](https://telegram.me/ybay911)"
+    line = "•⊰❂⊱═════ •⊰🐲⊱• ═════⊰❂⊱•\n🐲 By: ₆⁶₆Ϋ̙Θ⃬UN͠GB⃭ØΫ̘₆⁶₆"
     await event.edit(help_string, line)
 
 
@@ -214,7 +214,7 @@ async def amireallyalive(alive):
         f"💻 Versi Telethon   : {version.__version__}\n\n"
         f"🕒 Bot Berjalan selama {uptime}\n"
         f"•⊰❂⊱═════ •⊰🐲⊱• ═════⊰❂⊱•\n"
-	f"🐲 Powered by [₆⁶₆Ϋ̙Θ⃬UN͠GB⃭ØΫ̘₆⁶₆](https://telegram.me/ybay911)\n"
+	f"🐲 By ₆⁶₆Ϋ̙Θ⃬UN͠GB⃭ØΫ̘₆⁶₆\n"
         "`"
     )
     await bot.send_file(alive.chat_id, img, caption=caption, parse_mode='Markdown')
