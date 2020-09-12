@@ -24,4 +24,4 @@ async def help(event):
         for i in CMD_HELP:
             string += "`" + str(i)
             string += "`\t\t\t🐲\t\t\t "
-        await event.edit(f"{string}\n", stuck)
+        await event.edit(f"{string}\n{stuck}")
