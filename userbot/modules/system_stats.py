@@ -217,7 +217,7 @@ async def amireallyalive(alive):
 	f"🐲 Powered by [₆⁶₆Ϋ̙Θ⃬UN͠GB⃭ØΫ̘₆⁶₆](https://telegram.me/ybay911)\n"
         "`"
     )
-    await bot.send_file(alive.chat_id, img, caption=caption)
+    await bot.send_file(alive.chat_id, img, caption=caption, parse_mod='Markdown')
     await alive.delete()
 
 
