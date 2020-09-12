@@ -209,15 +209,16 @@ async def amireallyalive(alive):
         "`"
         "Bot sedang berjalan...\n"
         f"•⊰❂⊱═════ •⊰🐲⊱• ═════⊰❂⊱•\n"
-        f"👤 Pengguna         : {DEFAULTUSER}\n"
-        f"🐍 Versi Python     : {python_version()}\n"
-        f"💻 Versi Telethon   : {version.__version__}\n\n"
+        f"👤 Pengguna       : {DEFAULTUSER}\n"
+        f"👤 Username       : ", event.client.get_me.username, "\n"
+        f"🐍 Versi Python   : {python_version()}\n"
+        f"💻 Versi Telethon : {version.__version__}\n\n"
         f"🕒 Bot Berjalan selama {uptime}\n"
         f"•⊰❂⊱═════ •⊰🐲⊱• ═════⊰❂⊱•\n"
 	f"🐲 By ₆⁶₆Ϋ̙Θ⃬UN͠GB⃭ØΫ̘₆⁶₆\n"
         "`"
     )
-    await bot.send_file(alive.chat_id, img, caption=caption, parse_mode='Markdown')
+    await bot.send_file(alive.chat_id, img, caption=caption)
     await alive.delete()
 
 
