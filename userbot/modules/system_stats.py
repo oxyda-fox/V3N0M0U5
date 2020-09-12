@@ -210,7 +210,6 @@ async def amireallyalive(alive):
         "Bot sedang berjalan...\n"
         f"•⊰❂⊱═════ •⊰🐲⊱• ═════⊰❂⊱•\n"
         f"👤 Pengguna       : {DEFAULTUSER}\n"
-        f"👤 Username       : ", event.client.get_me.username, "\n"
         f"🐍 Versi Python   : {python_version()}\n"
         f"💻 Versi Telethon : {version.__version__}\n\n"
         f"🕒 Bot Berjalan selama {uptime}\n"
