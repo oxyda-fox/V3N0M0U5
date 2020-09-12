@@ -20,7 +20,7 @@ async def help(event):
             await event.edit("Please specify a valid module name.")
     else:
         string = "╭━━━━━━━━━━━━━━━━━━╮\n│               Help for **V3N0M0U5**\n│   ╾───────────────╼\n│   Contoh: .help <nama module>\n│   ╾───────────────╼\n"
-        stuck = "╰━━━━━━━━━━━━━━━━━━╯\nPowered by: [₆⁶₆Ϋ̙Θ⃬UN͠GB⃭ØΫ̘₆⁶₆](https://telegram.me/ybay911)"
+        stuck = "╰━━━━━━━━━━━━━━━━━━╯\nPowered by: 🐲 V3N0M0U5 🐲"
         for i in CMD_HELP:
             string += "`" + str(i)
             string += "`\t\t\t🐲\t\t\t "
