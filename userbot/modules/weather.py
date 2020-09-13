@@ -178,16 +178,16 @@ async def get_wtr(wtr):
         desc = weather["weatherDesc"][0]["value"]
 
     text = (
-        f"**Weather for:** `{CITY}`\n"
+        f"**Cuaca untuk:** `{CITY}`\n"
         + f"**{desc}**\n\n"
-        + f"**Temperature:** `{tempC}°C | {tempF}°F`\n"
+        + f"**Temperatur:** `{tempC}°C | {tempF}°F`\n"
         + f"**Min. Temp.:** `{mintempC}°C | {mintempF}°F`\n"
         + f"**Max. Temp.:** `{maxtempC}°C | {maxtempF}°F`\n"
         + f"**Humidity:** `{humidity}%`\n"
-        + f"**Wind:** `{windK}Km/h | {windM}Mp/h, {windD}`\n"
+        + f"**Angin:** `{windK}Km/h | {windM}Mp/h, {windD}`\n"
         + f"**Sunrise:** `{sunrise}`\n"
         + f"**Sunset:** `{sunset}`\n"
-        + f"**Updated on:** `{time}`\n\n"
+        + f"**Update paada:** `{time}`\n\n"
         + f"`{region}, {country}`"
     )
 
