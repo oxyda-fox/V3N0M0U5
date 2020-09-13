@@ -99,8 +99,8 @@ async def psu(event):
     help_string += f"{str(bw)}\n"
     help_string += "🐲 **Engine Info**\n"
     help_string += f"`Python {sys.version}`\n"
-    help_string += f"`Telethon {__version__}`"
-    line = "•⊰❂⊱═════ •⊰🐲⊱• ═════⊰❂⊱•\n🐲 By: ₆⁶₆Ϋ̙Θ⃬UN͠GB⃭ØΫ̘₆⁶₆"
+    help_string += f"`Telethon {__version__}`\n"
+    help_string += f"•⊰❂⊱═════ •⊰🐲⊱• ═════⊰❂⊱•\n🐲 By: ₆⁶₆Ϋ̙Θ⃬UN͠GB⃭ØΫ̘₆⁶₆"
     await event.edit(help_string, line)
 
 
